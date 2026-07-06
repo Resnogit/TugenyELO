@@ -1,0 +1,1120 @@
+{
+  "teams": [
+    {
+      "id": 1,
+      "name": "Schergen von Monasteria",
+      "short_name": "Schergen",
+      "creation_date": "2023-07-08T00:00:00+02:00"
+    },
+    {
+      "id": 2,
+      "name": "Aixcalibur",
+      "short_name": "Aixcalibur",
+      "creation_date": "2023-07-08T00:00:00+02:00"
+    },
+    {
+      "id": 3,
+      "name": "Bochum Juggers",
+      "short_name": "Bochum",
+      "creation_date": "2023-07-08T00:00:00+02:00"
+    },
+    {
+      "id": 4,
+      "name": "Chimaera Brunsviga",
+      "short_name": "Chimaera",
+      "creation_date": "2023-07-08T00:00:00+02:00"
+    },
+    {
+      "id": 5,
+      "name": "Cologne Raptors",
+      "short_name": "Raptors",
+      "creation_date": "2023-07-08T00:00:00+02:00"
+    },
+    {
+      "id": 6,
+      "name": "Erdmännchen Essen",
+      "short_name": "Erdmännchen",
+      "creation_date": "2023-07-08T00:00:00+02:00"
+    },
+    {
+      "id": 7,
+      "name": "Fischkoppkrieger",
+      "short_name": "Fischkoppkrieger",
+      "creation_date": "2023-07-08T00:00:00+02:00"
+    },
+    {
+      "id": 8,
+      "name": "Flying JUGGmen Bonn",
+      "short_name": "JUGGmen",
+      "creation_date": "2023-07-08T00:00:00+02:00"
+    },
+    {
+      "id": 9,
+      "name": "HaWu AllstarZ",
+      "short_name": "HaWu AllstarZ",
+      "creation_date": "2023-07-08T00:00:00+02:00"
+    },
+    {
+      "id": 10,
+      "name": "Peters Pawns",
+      "short_name": "Peters Pawns",
+      "creation_date": "2023-07-08T00:00:00+02:00"
+    },
+    {
+      "id": 11,
+      "name": "Pompfritz",
+      "short_name": "Pompfritz",
+      "creation_date": "2023-07-08T00:00:00+02:00"
+    },
+    {
+      "id": 12,
+      "name": "Quak Pack",
+      "short_name": "Quak Pack",
+      "creation_date": "2023-07-08T00:00:00+02:00"
+    },
+    {
+      "id": 13,
+      "name": "B*llerin*s",
+      "short_name": "B*llerin*s",
+      "creation_date": "2023-07-08T00:00:00+02:00"
+    },
+    {
+      "id": 14,
+      "name": "Bäuerchen",
+      "short_name": "Bäuerchen",
+      "creation_date": "2023-07-08T00:00:00+02:00"
+    },
+    {
+      "id": 15,
+      "name": "Fhtagn",
+      "short_name": "Fhtang",
+      "creation_date": "2022-07-16T00:00:00+02:00"
+    },
+    {
+      "id": 16,
+      "name": "Regenbogenkriegerinnen",
+      "short_name": "RBK",
+      "creation_date": "2022-07-16T00:00:00+02:00"
+    },
+    {
+      "id": 17,
+      "name": "Lokomotive Black Ninja",
+      "short_name": "Lokomotive",
+      "creation_date": "2022-07-16T00:00:00+02:00"
+    },
+    {
+      "id": 18,
+      "name": "Beast Pirates",
+      "short_name": "Beast Pirates",
+      "creation_date": "2024-05-04T00:00:00+02:00"
+    },
+    {
+      "id": 19,
+      "name": "Leipziger Nachtwache",
+      "short_name": "Nachtwache",
+      "creation_date": "2024-05-04T00:00:00+02:00"
+    },
+    {
+      "id": 20,
+      "name": "Leipziger Partyhände",
+      "short_name": "Partyhände",
+      "creation_date": "2024-05-04T00:00:00+02:00"
+    },
+    {
+      "id": 21,
+      "name": "Blue Fangs",
+      "short_name": "Blue Fangs",
+      "creation_date": "2024-05-04T00:00:00+02:00"
+    },
+    {
+      "id": 22,
+      "name": "Zonenkinder",
+      "short_name": "Zonenkinder",
+      "creation_date": "2024-05-04T00:00:00+02:00"
+    },
+    {
+      "id": 23,
+      "name": "Two Towers",
+      "short_name": "Two Towers",
+      "creation_date": "2024-05-04T00:00:00+02:00"
+    },
+    {
+      "id": 24,
+      "name": "Rigor Mortis",
+      "short_name": "Rigor Mortis",
+      "creation_date": "2024-05-04T00:00:00+02:00"
+    },
+    {
+      "id": 25,
+      "name": "IHOP Indiwi Juggerteam",
+      "short_name": "Indiwi",
+      "creation_date": "2024-05-04T00:00:00+02:00"
+    },
+    {
+      "id": 26,
+      "name": "Karlshorster Kollektiv",
+      "short_name": "Karlshorst",
+      "creation_date": "2024-05-04T00:00:00+02:00"
+    },
+    {
+      "id": 27,
+      "name": "Grünanlagen Guerilla",
+      "short_name": "GAG",
+      "creation_date": "2024-05-04T00:00:00+02:00"
+    },
+    {
+      "id": 28,
+      "name": "Anima Equorum",
+      "short_name": "Anima Equorum",
+      "creation_date": "2024-05-04T00:00:00+02:00"
+    },
+    {
+      "id": 29,
+      "name": "Skull!",
+      "short_name": "Skull!",
+      "creation_date": "2024-05-04T00:00:00+02:00"
+    },
+    {
+      "id": 30,
+      "name": "Likedeeler",
+      "short_name": "Likedeeler",
+      "creation_date": "2024-05-04T00:00:00+02:00"
+    },
+    {
+      "id": 31,
+      "name": "Falco jugger",
+      "short_name": "Falco jugger",
+      "creation_date": "2024-05-04T00:00:00+02:00"
+    },
+    {
+      "id": 32,
+      "name": "Amazonenkinder",
+      "short_name": "Amazonenkinder",
+      "creation_date": "2024-05-04T00:00:00+02:00"
+    },
+    {
+      "id": 33,
+      "name": "Potsdamer Piranhas",
+      "short_name": "Piranhas",
+      "creation_date": "2024-05-04T00:00:00+02:00"
+    },
+    {
+      "id": 34,
+      "name": "Bavaria One",
+      "short_name": "Bavaria One",
+      "creation_date": "2024-05-04T00:00:00+02:00"
+    },
+    {
+      "id": 35,
+      "name": "Fördergruppe",
+      "short_name": "Fördergruppe",
+      "creation_date": "2024-05-04T00:00:00+02:00"
+    },
+    {
+      "id": 36,
+      "name": "NLG",
+      "short_name": "NLG",
+      "creation_date": "2023-09-16T00:00:00+02:00"
+    },
+    {
+      "id": 37,
+      "name": "Rethwisch Rams",
+      "short_name": "Rethwisch Rams",
+      "creation_date": "2023-09-16T00:00:00+02:00"
+    },
+    {
+      "id": 38,
+      "name": "Jugger Helden Bamberg",
+      "short_name": "Helden",
+      "creation_date": "2023-09-16T00:00:00+02:00"
+    },
+    {
+      "id": 39,
+      "name": "Munich Monks",
+      "short_name": "Munich Monks",
+      "creation_date": "2023-09-16T00:00:00+02:00"
+    },
+    {
+      "id": 40,
+      "name": "Seven Sins",
+      "short_name": "Seven Sins",
+      "creation_date": "2023-09-16T00:00:00+02:00"
+    },
+    {
+      "id": 41,
+      "name": "Bushido Jugger",
+      "short_name": "Bushido Jugger",
+      "creation_date": "2024-06-15T00:00:00+02:00"
+    },
+    {
+      "id": 42,
+      "name": "Jugger Basilisken Basel",
+      "short_name": "Basel",
+      "creation_date": "2024-06-15T00:00:00+02:00"
+    },
+    {
+      "id": 43,
+      "name": "Perros de Tíndalos",
+      "short_name": "Perros",
+      "creation_date": "2024-06-15T00:00:00+02:00"
+    },
+    {
+      "id": 44,
+      "name": "Nómadas",
+      "short_name": "Nómadas",
+      "creation_date": "2024-06-15T00:00:00+02:00"
+    },
+    {
+      "id": 45,
+      "name": "Selección Alicantina de Jugger (SAJ)",
+      "short_name": "AliCantina",
+      "creation_date": "2024-06-15T00:00:00+02:00"
+    },
+    {
+      "id": 46,
+      "name": "Gulden draak",
+      "short_name": "Gulden draak",
+      "creation_date": "2024-06-15T00:00:00+02:00"
+    },
+    {
+      "id": 47,
+      "name": "Phoenix Lights",
+      "short_name": "Phoenix Lights",
+      "creation_date": "2024-06-15T00:00:00+02:00"
+    },
+    {
+      "id": 48,
+      "name": "Malzeit!",
+      "short_name": "Malzeit!",
+      "creation_date": "2024-06-15T00:00:00+02:00"
+    },
+    {
+      "id": 49,
+      "name": "Schatten",
+      "short_name": "Schatten",
+      "creation_date": "2024-06-15T00:00:00+02:00"
+    },
+    {
+      "id": 50,
+      "name": "Rigor Mortis 2",
+      "short_name": "Rigor Mortis 2",
+      "creation_date": "2023-05-27T00:00:00+02:00"
+    },
+    {
+      "id": 51,
+      "name": "Mécan'Hydre",
+      "short_name": "Mécan'Hydre",
+      "creation_date": "2023-05-27T00:00:00+02:00"
+    },
+    {
+      "id": 52,
+      "name": "Rampage (Ireland)",
+      "short_name": "Rampage",
+      "creation_date": "2023-05-27T00:00:00+02:00"
+    },
+    {
+      "id": 53,
+      "name": "The Fellowship",
+      "short_name": "The Fellowship",
+      "creation_date": "2023-05-27T00:00:00+02:00"
+    },
+    {
+      "id": 54,
+      "name": "Jugger Vienna",
+      "short_name": "Jugger Vienna",
+      "creation_date": "2023-05-27T00:00:00+02:00"
+    },
+    {
+      "id": 55,
+      "name": "Cranium ex Machina",
+      "short_name": "Cranium",
+      "creation_date": "2023-05-27T00:00:00+02:00"
+    },
+    {
+      "id": 56,
+      "name": "Feuersalamander",
+      "short_name": "Feuersalamander",
+      "creation_date": "2023-05-27T00:00:00+02:00"
+    },
+    {
+      "id": 57,
+      "name": "Gossenhauer",
+      "short_name": "Gossenhauer",
+      "creation_date": "2023-05-27T00:00:00+02:00"
+    },
+    {
+      "id": 58,
+      "name": "Jugger Schurken Bamberg",
+      "short_name": "Schurken",
+      "creation_date": "2023-05-27T00:00:00+02:00"
+    },
+    {
+      "id": 59,
+      "name": "Nordische Sport Amateure",
+      "short_name": "NSA",
+      "creation_date": "2023-05-27T00:00:00+02:00"
+    },
+    {
+      "id": 60,
+      "name": "ProblemMachine",
+      "short_name": "ProblemMachine",
+      "creation_date": "2023-05-27T00:00:00+02:00"
+    },
+    {
+      "id": 61,
+      "name": "Torpedo Bääm!",
+      "short_name": "Torpedo Bääm!",
+      "creation_date": "2023-05-27T00:00:00+02:00"
+    },
+    {
+      "id": 62,
+      "name": "Die Goldenen Reiter",
+      "short_name": "Reiter",
+      "creation_date": "2023-05-27T00:00:00+02:00"
+    },
+    {
+      "id": 63,
+      "name": "Zonenzwerge",
+      "short_name": "Zonenzwerge",
+      "creation_date": "2023-05-27T00:00:00+02:00"
+    },
+    {
+      "id": 64,
+      "name": "Jugglers Jugg",
+      "short_name": "Jugglers Jugg",
+      "creation_date": "2023-05-06T00:00:00+02:00"
+    },
+    {
+      "id": 65,
+      "name": "Bob Jugger",
+      "short_name": "Bob Jugger",
+      "creation_date": "2023-05-06T00:00:00+02:00"
+    },
+    {
+      "id": 66,
+      "name": "Blutgrätsche",
+      "short_name": "Blutgrätsche",
+      "creation_date": "2022-08-27T00:00:00+02:00"
+    },
+    {
+      "id": 67,
+      "name": "Red Lynx",
+      "short_name": "Red Lynx",
+      "creation_date": "2022-08-27T00:00:00+02:00"
+    },
+    {
+      "id": 68,
+      "name": "Wütende Tintenfische",
+      "short_name": "WTF",
+      "creation_date": "2022-08-27T00:00:00+02:00"
+    },
+    {
+      "id": 69,
+      "name": "Jadedrachen",
+      "short_name": "Jadedrachen",
+      "creation_date": "2022-08-27T00:00:00+02:00"
+    },
+    {
+      "id": 70,
+      "name": "Kerberos",
+      "short_name": "Kerberos",
+      "creation_date": "2022-05-28T00:00:00+02:00"
+    },
+    {
+      "id": 71,
+      "name": "Die Leere Menge",
+      "short_name": "Die Leere Menge",
+      "creation_date": "2022-05-28T00:00:00+02:00"
+    },
+    {
+      "id": 72,
+      "name": "Pompfenbrecher",
+      "short_name": "PoBr",
+      "creation_date": "2021-09-24T00:00:00+02:00"
+    },
+    {
+      "id": 73,
+      "name": "Nightfox Bonn",
+      "short_name": "N8Fox",
+      "creation_date": "2021-09-24T00:00:00+02:00"
+    },
+    {
+      "id": 74,
+      "name": "Jumping Juggmen",
+      "short_name": "JuJu",
+      "creation_date": "2021-09-24T00:00:00+02:00"
+    },
+    {
+      "id": 75,
+      "name": "Hobbiz",
+      "short_name": "Hobb",
+      "creation_date": "2021-09-24T00:00:00+02:00"
+    },
+    {
+      "id": 76,
+      "name": "The JAAguars",
+      "short_name": "JAAg",
+      "creation_date": "2021-09-24T00:00:00+02:00"
+    },
+    {
+      "id": 77,
+      "name": "Freilos",
+      "short_name": "Frei",
+      "creation_date": "2021-09-24T00:00:00+02:00"
+    },
+    {
+      "id": 78,
+      "name": "Blackthorn",
+      "short_name": "BT",
+      "creation_date": "2021-09-24T00:00:00+02:00"
+    },
+    {
+      "id": 79,
+      "name": "Blutgruppe Nord",
+      "short_name": "BGN",
+      "creation_date": "2021-09-24T00:00:00+02:00"
+    },
+    {
+      "id": 80,
+      "name": "Grimm Racoons",
+      "short_name": "GrRa",
+      "creation_date": "2021-09-24T00:00:00+02:00"
+    },
+    {
+      "id": 81,
+      "name": "Juggernauts Schädeljäger",
+      "short_name": "JuSch",
+      "creation_date": "2021-09-24T00:00:00+02:00"
+    },
+    {
+      "id": 82,
+      "name": "Rethwisch Rams -II-",
+      "short_name": "RR2",
+      "creation_date": "2021-09-24T00:00:00+02:00"
+    },
+    {
+      "id": 83,
+      "name": "NinJAAlapeños",
+      "short_name": "NinJ",
+      "creation_date": "2021-09-24T00:00:00+02:00"
+    },
+    {
+      "id": 84,
+      "name": "Jugg - the Ripper",
+      "short_name": "JTR",
+      "creation_date": "2021-09-24T00:00:00+02:00"
+    },
+    {
+      "id": 85,
+      "name": "Draconis Pannoniae",
+      "short_name": "DP",
+      "creation_date": "2021-09-24T00:00:00+02:00"
+    },
+    {
+      "id": 86,
+      "name": "Cranium ex Apparatus",
+      "short_name": "CxA",
+      "creation_date": "2021-09-24T00:00:00+02:00"
+    },
+    {
+      "id": 87,
+      "name": "Schergen von Monasteria 2.0",
+      "short_name": "SvM2",
+      "creation_date": "2021-09-24T00:00:00+02:00"
+    },
+    {
+      "id": 88,
+      "name": "Pink Pain",
+      "short_name": "PiPa",
+      "creation_date": "2021-09-24T00:00:00+02:00"
+    },
+    {
+      "id": 89,
+      "name": "Weserkraken",
+      "short_name": "WK",
+      "creation_date": "2021-09-24T00:00:00+02:00"
+    },
+    {
+      "id": 90,
+      "name": "Arima Galduak",
+      "short_name": "AG",
+      "creation_date": "2021-09-24T00:00:00+02:00"
+    },
+    {
+      "id": 91,
+      "name": "Bembelritter",
+      "short_name": "BR",
+      "creation_date": "2021-09-24T00:00:00+02:00"
+    },
+    {
+      "id": 92,
+      "name": "Flying Unicorns",
+      "short_name": "FU",
+      "creation_date": "2021-09-24T00:00:00+02:00"
+    },
+    {
+      "id": 93,
+      "name": "Keiler",
+      "short_name": "Kei",
+      "creation_date": "2021-09-24T00:00:00+02:00"
+    },
+    {
+      "id": 94,
+      "name": "Fauna",
+      "short_name": "Fau",
+      "creation_date": "2021-09-24T00:00:00+02:00"
+    },
+    {
+      "id": 95,
+      "name": "Fémures Huérfanos",
+      "short_name": "FéHu",
+      "creation_date": "2021-09-24T00:00:00+02:00"
+    },
+    {
+      "id": 96,
+      "name": "Second Cubs",
+      "short_name": "SC",
+      "creation_date": "2021-09-24T00:00:00+02:00"
+    },
+    {
+      "id": 97,
+      "name": "Die Wasbären",
+      "short_name": "DWB",
+      "creation_date": "2021-09-24T00:00:00+02:00"
+    },
+    {
+      "id": 98,
+      "name": "Fischkoppkrieger 2",
+      "short_name": "FKK2",
+      "creation_date": "2021-09-24T00:00:00+02:00"
+    },
+    {
+      "id": 99,
+      "name": "Nuclear Apocalypse",
+      "short_name": "NA",
+      "creation_date": "2021-09-24T00:00:00+02:00"
+    },
+    {
+      "id": 100,
+      "name": "Flossenhauer",
+      "short_name": "FlHa",
+      "creation_date": "2021-09-24T00:00:00+02:00"
+    },
+    {
+      "id": 101,
+      "name": "Pauli und die starken Männer",
+      "short_name": "Pauli",
+      "creation_date": "2024-07-27T00:00:00+02:00"
+    },
+    {
+      "id": 102,
+      "name": "HSP Münster",
+      "short_name": "HSP",
+      "creation_date": "2024-07-06T00:00:00+02:00"
+    },
+    {
+      "id": 103,
+      "name": "Langenfeld Lancers",
+      "short_name": "Lancers",
+      "creation_date": "2024-07-06T00:00:00+02:00"
+    },
+    {
+      "id": 104,
+      "name": "Munich Bonks",
+      "short_name": "Bonks",
+      "creation_date": "2024-07-06T00:00:00+02:00"
+    },
+    {
+      "id": 105,
+      "name": "Pixelschubser",
+      "short_name": "Pixelschubser",
+      "creation_date": "2024-07-06T00:00:00+02:00"
+    },
+    {
+      "id": 106,
+      "name": "R.A.G.E.",
+      "short_name": "R.A.G.E.",
+      "creation_date": "2024-08-24T00:00:00+02:00"
+    },
+    {
+      "id": 107,
+      "name": "Galgenvögel",
+      "short_name": "Galgenvögel",
+      "creation_date": "2024-08-24T00:00:00+02:00"
+    },
+    {
+      "id": 108,
+      "name": "Space Pirats",
+      "short_name": "Space Pirats",
+      "creation_date": "2024-08-24T00:00:00+02:00"
+    },
+    {
+      "id": 109,
+      "name": "Seitenstechen",
+      "short_name": "Seitenstechen",
+      "creation_date": "2024-08-24T00:00:00+02:00"
+    },
+    {
+      "id": 110,
+      "name": "SpVgg Rasenschach",
+      "short_name": "Schach",
+      "creation_date": "2024-09-14T00:00:00+02:00"
+    },
+    {
+      "id": 111,
+      "name": "Wadenbeißer",
+      "short_name": "Waden",
+      "creation_date": "2024-09-14T00:00:00+02:00"
+    },
+    {
+      "id": 112,
+      "name": "Haralds Blauzähne",
+      "short_name": "Blau",
+      "creation_date": "2024-09-14T00:00:00+02:00"
+    },
+    {
+      "id": 113,
+      "name": "Rethwisch Ravens",
+      "short_name": "Ravens",
+      "creation_date": "2024-09-14T00:00:00+02:00"
+    },
+    {
+      "id": 114,
+      "name": "High Socks",
+      "short_name": "Socks",
+      "creation_date": "2024-09-14T00:00:00+02:00"
+    },
+    {
+      "id": 115,
+      "name": "Black Knights Nürnberg",
+      "short_name": "Black Knights",
+      "creation_date": "2024-09-21T00:00:00+02:00"
+    },
+    {
+      "id": 116,
+      "name": "Blue Thunder Elbmarsch",
+      "short_name": "BTE",
+      "creation_date": "2024-10-19T00:00:00+02:00"
+    },
+    {
+      "id": 117,
+      "name": "Wird schon",
+      "short_name": "Wsc",
+      "creation_date": "2024-10-19T00:00:00+02:00"
+    },
+    {
+      "id": 118,
+      "name": "Kieler Orcas",
+      "short_name": "Kieler Orcas",
+      "creation_date": "2025-04-26T00:00:00+02:00"
+    },
+    {
+      "id": 119,
+      "name": "Skøll",
+      "short_name": "Skøll",
+      "creation_date": "2025-04-26T00:00:00+02:00"
+    },
+    {
+      "id": 120,
+      "name": "The Phantom Menace",
+      "short_name": "Phantom",
+      "creation_date": "2025-04-26T00:00:00+02:00"
+    },
+    {
+      "id": 121,
+      "name": "Fondue Front",
+      "short_name": "Fondue Front",
+      "creation_date": "2025-04-26T00:00:00+02:00"
+    },
+    {
+      "id": 122,
+      "name": "Eclipse",
+      "short_name": "Eclipse",
+      "creation_date": "2025-04-26T00:00:00+02:00"
+    },
+    {
+      "id": 123,
+      "name": "Wildlings",
+      "short_name": "Wildlings",
+      "creation_date": "2025-05-03T00:00:00+02:00"
+    },
+    {
+      "id": 124,
+      "name": "IHOP-Indiwi Jugendteam",
+      "short_name": "Indiwi Jugend 1",
+      "creation_date": "2025-05-03T00:00:00+02:00"
+    },
+    {
+      "id": 125,
+      "name": "IHOP-Indiwi Jugendteam 2",
+      "short_name": "Indiwi Jugend 2",
+      "creation_date": "2025-05-03T00:00:00+02:00"
+    },
+    {
+      "id": 126,
+      "name": "Fontanes Faust",
+      "short_name": "Fontanes Faust",
+      "creation_date": "2025-05-03T00:00:00+02:00"
+    },
+    {
+      "id": 127,
+      "name": "Anima Lupi",
+      "short_name": "Anima Lupi",
+      "creation_date": "2025-05-03T00:00:00+02:00"
+    },
+    {
+      "id": 128,
+      "name": "Wildlings Youngsters",
+      "short_name": "Wildlings",
+      "creation_date": "2025-05-03T00:00:00+02:00"
+    },
+    {
+      "id": 129,
+      "name": "IHOP-Indiwi Kinderteam",
+      "short_name": "Indiwi Kinder 1",
+      "creation_date": "2025-05-03T00:00:00+02:00"
+    },
+    {
+      "id": 130,
+      "name": "IHOP-Indiwi Kinderteam 2",
+      "short_name": "Indiwi Kinder 2",
+      "creation_date": "2025-05-03T00:00:00+02:00"
+    },
+    {
+      "id": 131,
+      "name": "Fontanes Fäustlinge",
+      "short_name": "Fäustlinge",
+      "creation_date": "2025-05-03T00:00:00+02:00"
+    },
+    {
+      "id": 132,
+      "name": "Werbellinsee Warriors",
+      "short_name": "Warriors",
+      "creation_date": "2025-05-03T00:00:00+02:00"
+    },
+    {
+      "id": 133,
+      "name": "Jugger Rewolucja",
+      "short_name": "Rewolucja",
+      "creation_date": "2025-07-05T00:00:00+02:00"
+    },
+    {
+      "id": 134,
+      "name": "Blue Tooth",
+      "short_name": "Blue Tooth",
+      "creation_date": "2025-07-05T00:00:00+02:00"
+    },
+    {
+      "id": 135,
+      "name": "Mosquitos Münster",
+      "short_name": "Mosquitos",
+      "creation_date": "2025-07-12T00:00:00+02:00"
+    },
+    {
+      "id": 136,
+      "name": "BONNdage",
+      "short_name": "BONNdage",
+      "creation_date": "2025-07-12T00:00:00+02:00"
+    },
+    {
+      "id": 137,
+      "name": "Waldläufer",
+      "short_name": "Waldläufer",
+      "creation_date": "2025-07-12T00:00:00+02:00"
+    },
+    {
+      "id": 138,
+      "name": "Zwietracht Spandau",
+      "short_name": "Zwietracht",
+      "creation_date": "2025-07-12T00:00:00+02:00"
+    },
+    {
+      "id": 139,
+      "name": "Quaxcalibur",
+      "short_name": "Quaxcalibur",
+      "creation_date": "2025-07-12T00:00:00+02:00"
+    },
+    {
+      "id": 140,
+      "name": "Erdlancylum",
+      "short_name": "Erdlancylum",
+      "creation_date": "2025-07-12T00:00:00+02:00"
+    },
+    {
+      "id": 141,
+      "name": "Hutgruppe Nord",
+      "short_name": "Hutgruppe",
+      "creation_date": "2025-07-12T00:00:00+02:00"
+    },
+    {
+      "id": 142,
+      "name": "De Nachtwacht",
+      "short_name": "Nachtwacht",
+      "creation_date": "2025-07-12T00:00:00+02:00"
+    },
+    {
+      "id": 143,
+      "name": "Weserkalmare",
+      "short_name": "Weserkalmare",
+      "creation_date": "2025-07-12T00:00:00+02:00"
+    },
+    {
+      "id": 144,
+      "name": "Wesershrimps",
+      "short_name": "Wesershrimps",
+      "creation_date": "2025-07-12T00:00:00+02:00"
+    },
+    {
+      "id": 145,
+      "name": "Perseiden",
+      "short_name": "PER",
+      "creation_date": "2025-07-05T00:00:00+02:00"
+    },
+    {
+      "id": 146,
+      "name": "Lahnveilchen",
+      "short_name": "LV",
+      "creation_date": "2025-07-05T00:00:00+02:00"
+    },
+    {
+      "id": 147,
+      "name": "Bamselberg",
+      "short_name": "BAM",
+      "creation_date": "2025-07-05T00:00:00+02:00"
+    },
+    {
+      "id": 148,
+      "name": "Jugger Asylum",
+      "short_name": "JUG",
+      "creation_date": "2025-07-05T00:00:00+02:00"
+    },
+    {
+      "id": 149,
+      "name": "Pink Chimaera",
+      "short_name": "Pink Chimaera",
+      "creation_date": "2025-08-16T00:00:00+02:00"
+    },
+    {
+      "id": 150,
+      "name": "Flying Rage Juggers",
+      "short_name": "Flying Rage",
+      "creation_date": "2025-08-16T00:00:00+02:00"
+    },
+    {
+      "id": 151,
+      "name": "HaWu GT",
+      "short_name": "HaWu GT",
+      "creation_date": "2025-08-16T00:00:00+02:00"
+    },
+    {
+      "id": 152,
+      "name": "Chaos In Action",
+      "short_name": "CIA",
+      "creation_date": "2025-08-30T00:00:00+02:00"
+    },
+    {
+      "id": 153,
+      "name": "Jugger Basilikum",
+      "short_name": "Jugger Basilikum",
+      "creation_date": "2025-08-30T00:00:00+02:00"
+    },
+    {
+      "id": 154,
+      "name": "Jugger Basilisken Basel Badischer Bahnhof",
+      "short_name": "JBBBB",
+      "creation_date": "2025-08-30T00:00:00+02:00"
+    },
+    {
+      "id": 155,
+      "name": "Schwarzwald Spirits",
+      "short_name": "Schwarzwald Spirits",
+      "creation_date": "2025-08-30T00:00:00+02:00"
+    },
+    {
+      "id": 156,
+      "name": "Bochum Huggers",
+      "short_name": "BoH",
+      "creation_date": "2025-08-30T00:00:00+02:00"
+    },
+    {
+      "id": 162,
+      "name": "Dracones",
+      "short_name": "Dracones",
+      "creation_date": "2025-08-30T00:00:00+02:00"
+    },
+    {
+      "id": 163,
+      "name": "Labracadabrador",
+      "short_name": "Labracadabrador",
+      "creation_date": "2025-08-30T00:00:00+02:00"
+    },
+    {
+      "id": 164,
+      "name": "Törökkör",
+      "short_name": "Törökkör",
+      "creation_date": "2025-08-30T00:00:00+02:00"
+    },
+    {
+      "id": 165,
+      "name": "DodoLokoMermaids",
+      "short_name": "DodoLokoMermaids",
+      "creation_date": "2025-08-30T00:00:00+02:00"
+    },
+    {
+      "id": 166,
+      "name": "Hellfire",
+      "short_name": "Hellfire",
+      "creation_date": "2025-08-30T00:00:00+02:00"
+    },
+    {
+      "id": 167,
+      "name": "Sadari",
+      "short_name": "Sadari",
+      "creation_date": "2025-08-30T00:00:00+02:00"
+    },
+    {
+      "id": 168,
+      "name": "Juggermäuse",
+      "short_name": "Juggermäuse",
+      "creation_date": "2025-09-13T00:00:00+02:00"
+    },
+    {
+      "id": 169,
+      "name": "Paarungszeit",
+      "short_name": "Paarungszeit",
+      "creation_date": "2025-09-13T00:00:00+02:00"
+    },
+    {
+      "id": 170,
+      "name": "Vigor",
+      "short_name": "Vigor",
+      "creation_date": "2025-09-13T00:00:00+02:00"
+    },
+    {
+      "id": 171,
+      "name": "Big Mac Enjoyer",
+      "short_name": "Big Mac Enjoyer",
+      "creation_date": "2025-09-13T00:00:00+02:00"
+    },
+    {
+      "id": 172,
+      "name": "Knautschzonenkinder",
+      "short_name": "KZK",
+      "creation_date": "2025-07-26T00:00:00+02:00"
+    },
+    {
+      "id": 173,
+      "name": "Black Paladins",
+      "short_name": "Black Paladins",
+      "creation_date": "2025-07-26T00:00:00+02:00"
+    },
+    {
+      "id": 174,
+      "name": "Ozonenkinder",
+      "short_name": "Ozonenkinder",
+      "creation_date": "2025-07-26T00:00:00+02:00"
+    },
+    {
+      "id": 175,
+      "name": "Die Blauen Wunder",
+      "short_name": "Die Blauen Wunder",
+      "creation_date": "2025-07-26T00:00:00+02:00"
+    },
+    {
+      "id": 176,
+      "name": "Randale-Aale",
+      "short_name": "Randale-Aale",
+      "creation_date": "2025-10-04T00:00:00+02:00"
+    },
+    {
+      "id": 177,
+      "name": "Living Undeads",
+      "short_name": "Living Undeads",
+      "creation_date": "2025-10-04T00:00:00+02:00"
+    },
+    {
+      "id": 178,
+      "name": "maid2win",
+      "short_name": "maid2win",
+      "creation_date": "2025-10-04T00:00:00+02:00"
+    },
+    {
+      "id": 179,
+      "name": "Top Vier",
+      "short_name": "Top Vier",
+      "creation_date": "2025-10-04T00:00:00+02:00"
+    },
+    {
+      "id": 181,
+      "name": "Besterampe",
+      "short_name": "Ramp",
+      "creation_date": "2026-02-14T00:00:00+01:00"
+    },
+    {
+      "id": 182,
+      "name": "Keulen Eulen",
+      "short_name": "Eul",
+      "creation_date": "2026-02-14T00:00:00+01:00"
+    },
+    {
+      "id": 183,
+      "name": "Leondinger Lionturtles",
+      "short_name": "Leon",
+      "creation_date": "2026-02-14T00:00:00+01:00"
+    },
+    {
+      "id": 184,
+      "name": "K.u.K. Hofpompferei",
+      "short_name": "KuK",
+      "creation_date": "2026-03-21T00:00:00+01:00"
+    },
+    {
+      "id": 185,
+      "name": "Herzensbrecher",
+      "short_name": "Herzensbrecher",
+      "creation_date": "2026-03-21T00:00:00+01:00"
+    },
+    {
+      "id": 186,
+      "name": "Mécan'Hydre 2",
+      "short_name": "MH2",
+      "creation_date": "2026-04-18T00:00:00+02:00"
+    },
+    {
+      "id": 187,
+      "name": "Palais'Hydre",
+      "short_name": "PalH",
+      "creation_date": "2026-04-18T00:00:00+02:00"
+    },
+    {
+      "id": 188,
+      "name": "Bison Team Jugger",
+      "short_name": "Bis",
+      "creation_date": "2026-04-18T00:00:00+02:00"
+    },
+    {
+      "id": 189,
+      "name": "La Pepa",
+      "short_name": "pep",
+      "creation_date": "2026-04-18T00:00:00+02:00"
+    },
+    {
+      "id": 190,
+      "name": "IHOP-Indiwi Kinderteam 3",
+      "short_name": "Indiwi Kinder 3",
+      "creation_date": "2026-04-18T00:00:00+02:00"
+    },
+    {
+      "id": 191,
+      "name": "Mischwälder",
+      "short_name": "Mischwälder",
+      "creation_date": "2026-06-13T00:00:00+02:00"
+    },
+    {
+      "id": 192,
+      "name": "Südwind",
+      "short_name": "Südwind",
+      "creation_date": "2026-06-13T00:00:00+02:00"
+    }
+  ]
+}
