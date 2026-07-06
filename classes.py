@@ -23,7 +23,7 @@ class team:
     def __init__(self, id, name) -> None:
         self.__id = id
         self.name = name
-        self.__elo = 1500
+        self.elo = 1500
 
     def get_id(self):
         return self.__id
