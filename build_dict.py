@@ -13,7 +13,7 @@ def build_teams_db(path):
     dict_from_json = json.loads(data_str)  # creates dict object from json text
     for team_dict in dict_from_json[
         "teams"
-    ]:  # iterates over the new dict, only moving selected items to resulting teams list
+    ]:  # iterates over the new dict, only moving selected attributes to resulting teams list
         new_team = team(team_dict["id"], team_dict["name"])
         team_class_list.append(new_team)
     return team_class_list
