@@ -24,6 +24,8 @@ class team:
         self.__id = id
         self.name = name
         self.elo = 1500
+        self.matches = 0
+        self.wins = 0
 
     def get_id(self):
         return self.__id
