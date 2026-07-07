@@ -26,9 +26,17 @@ class team:
         self.elo = 1500
         self.matches = 0
         self.wins = 0
+        self.__winrate = 0.00
 
     def get_id(self):
         return self.__id
 
     def get_name(self):
         return self.name
+
+    def get_winrate(self):
+        try:
+            self.__winrate = (self.wins / self.matches) * 100
+        except ZeroDivisionError:
+            print("No Matches found. Can not calculate Winrate")
+        return f"{self.__winrate:.2f}%"
