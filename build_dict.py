@@ -35,3 +35,32 @@ def build_match_db(path):
         match_class_list.append(new_match)
         match_id += 1
     return match_class_list
+
+
+def calculate_matches(match_db, team_db):  # Large function. Could be split up later?
+    for match in match_db:  # Checks if teams have participated in matches and increments their values accordingly. This is necessary BEFORE cleanup can happen!
+        match_id = match.get_id()
+        team_1 = match.first_team
+        team_2 = match.second_team
+        winner = match.get_winner()
+        # print(f"Parsing Match #{match_id}: {team_1} // {team_2}")
+        for team in team_db:
+            if team.name == team_1 or team.name == team_2:
+                team.matches += 1
+            if team.name == winner:
+                team.wins += 1
+    print(f"Match data updated: {match_id} matches found!")
+
+
+def clean_up_teams(team_db):
+    team_db_clean = []
+    counter = 0
+    print("Cleaning up teams...")
+    for team in team_db:  # remove all teams with 0 matches from the db
+        if team.matches <= 0:
+            counter += 1
+        else:
+            team.get_winrate()  # Sets winrate for all teams with more than 0 matches
+            team_db_clean.append(team)
+    print(f"Removed {counter} teams with 0 recorded matches!")
+    return team_db_clean
