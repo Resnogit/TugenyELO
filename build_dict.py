@@ -18,11 +18,13 @@ def build_teams_db(path):
 
 def build_match_db(path):
     match_class_list = []  # Empty list for result
+    match_id = 1
     with open(path) as data:
         data_str = data.read()  # Reads path into a string
     dict_from_json = json.loads(data_str)  # creates dict object from json text
     for match_dict in dict_from_json:
         new_match = match(
+            match_id,
             match_dict["first_team"],
             match_dict["first_team_id"],
             match_dict["second_team"],
@@ -31,4 +33,5 @@ def build_match_db(path):
             match_dict["victorious_team_id"],
         )
         match_class_list.append(new_match)
+        match_id += 1
     return match_class_list
