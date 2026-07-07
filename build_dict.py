@@ -2,9 +2,6 @@ import json
 
 from classes import match, team
 
-path_teams_json = "json/2025_teams.json"
-path_matches_json = "json/2025_matches.json"
-
 
 def build_teams_db(path):
     team_class_list = []  # New list container for resulting list.
@@ -35,7 +32,3 @@ def build_match_db(path):
         )
         match_class_list.append(new_match)
     return match_class_list
-
-
-# list_of_teams = build_teams_db(path_teams_json)
-list_of_matches = build_match_db(path_matches_json)
