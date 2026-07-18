@@ -18,7 +18,7 @@ def build_teams_db(path):
 
 def build_match_db(path):
     match_class_list = []  # Empty list for result
-    match_id = 1
+    match_id = 1  # Starting MatchID
     with open(path) as data:
         data_str = data.read()  # Reads path into a string
     dict_from_json = json.loads(data_str)  # creates dict object from json text
@@ -33,22 +33,20 @@ def build_match_db(path):
             match_dict["victorious_team_id"],
             match_dict["timestamp"]
         )
-        match_class_list.append(new_match)
-        match_id += 1
+        match_class_list.append(
+            new_match
+        )  # Adds a match object according to the above format to a list.
+        match_id += 1  # Increments Match ID.
     return match_class_list
 
 
 def calculate_matches(match_db, team_db):
-    for game in match_db:  # Checks if teams have participated in matches and increments their values accordingly. This is necessary BEFORE cleanup can happen!
-        match_id = game.get_id()
-        team_1 = game.first_team
-        team_2 = game.second_team
-        winner = game.get_winner()
-        # print(f"Parsing Match #{match_id}: {team_1} // {team_2}")
+    for match in match_db:  # Checks if teams have participated in matches and increments their values accordingly. This is necessary BEFORE cleanup can happen!
+        match_id = match.get_id()
         for team in team_db:
-            if team.name == team_1 or team.name == team_2:
+            if team.name == match.first_team or team.name == match.second_team:
                 team.matches += 1
-            if team.name == winner:
+            if team.name == match.victorious_team:
                 team.wins += 1
     print(f"Match data updated: {match_id} matches found!")
 
