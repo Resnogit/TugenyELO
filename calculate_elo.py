@@ -7,3 +7,11 @@ def calculate_elo(match_db):
         team_2 = game.second_team
         winner = game.get_winner()
         print(f"Parsing Match #{match_id}: {team_1} // {team_2}")
+
+
+
+def compare_elo(team1, team2):
+    pass
+
+def expected_elo(team1, team2):
+    pass

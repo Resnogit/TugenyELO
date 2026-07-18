@@ -34,7 +34,7 @@ class team:
         self.matches = 0
         self.wins = 0
         self.__winrate = 0.00
-        self.played_against = []
+        self.played_against = set()
 
     def get_id(self):
         return self.__id
