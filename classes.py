@@ -8,6 +8,7 @@ class match:
         second_team_id,
         victorious_team,
         victorious_team_id,
+        timestamp
     ) -> None:
         self.first_team = first_team
         self.__first_team_id = first_team_id
@@ -16,6 +17,7 @@ class match:
         self.victorious_team = victorious_team
         self.__victorious_team_id = victorious_team_id
         self.__match_id = match_id
+        self.timestamp = timestamp
 
     def get_winner(self):
         return self.victorious_team

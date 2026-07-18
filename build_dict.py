@@ -31,18 +31,19 @@ def build_match_db(path):
             match_dict["second_team_id"],
             match_dict["victorious_team"],
             match_dict["victorious_team_id"],
+            match_dict["timestamp"]
         )
         match_class_list.append(new_match)
         match_id += 1
     return match_class_list
 
 
-def calculate_matches(match_db, team_db):  # Large function. Could be split up later?
-    for match in match_db:  # Checks if teams have participated in matches and increments their values accordingly. This is necessary BEFORE cleanup can happen!
-        match_id = match.get_id()
-        team_1 = match.first_team
-        team_2 = match.second_team
-        winner = match.get_winner()
+def calculate_matches(match_db, team_db):
+    for game in match_db:  # Checks if teams have participated in matches and increments their values accordingly. This is necessary BEFORE cleanup can happen!
+        match_id = game.get_id()
+        team_1 = game.first_team
+        team_2 = game.second_team
+        winner = game.get_winner()
         # print(f"Parsing Match #{match_id}: {team_1} // {team_2}")
         for team in team_db:
             if team.name == team_1 or team.name == team_2:
@@ -64,3 +65,8 @@ def clean_up_teams(team_db):
             team_db_clean.append(team)
     print(f"Removed {counter} teams with 0 recorded matches!")
     return team_db_clean
+
+def write_db_to_file(db):
+    with open("test.txt", "w") as doc:
+        for entry in db:
+            doc.write(f"{entry.name}\n")
