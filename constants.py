@@ -1,0 +1,1 @@
+MATCH_BASE_ELO = 250
