@@ -64,7 +64,6 @@ def clean_up_teams(team_db):
     print(f"Removed {counter} teams with 0 recorded matches!")
     return team_db_clean
 
-def write_db_to_file(db):
-    with open("test.txt", "w") as doc:
-        for entry in db:
-            doc.write(f"{entry.name}\n")
+def build_opponents_set(match_db, team_db):
+    for team in team_db:
+        team.get_opponents(match_db)

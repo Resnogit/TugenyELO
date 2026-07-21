@@ -1,26 +1,5 @@
-from constants import MATCH_BASE_ELO
+from constants import BASE_ELO_VALUE, MATCH_BASE_ELO, POSITIONAL_ELO_MAX
 
-def calculate_elo(match_db, team_db):
-    counted_matches = set()
-    for game in match_db:
-        match_id = game.get_id()
-        winner = game.get_winner_obj(team_db)
-        looser = game.get_looser_obj(team_db)
-        if check_if_not_draw(game):
-            match_counter, winner_wins, looser_wins, draws = check_previous_matches(counted_matches, winner, looser)
-            if winner_wins + looser_wins + draws == 0:
-                winner_wins = 1
-            winner_point_gain, looser_point_gain = calculate_points(winner, winner_wins, looser, looser_wins, draws, match_counter)
-            counted_matches.add(game)
-            print(f"Parsing Match #{match_id}: Won: {winner.name} gained {winner_point_gain:.2f} pts ({winner.elo:.2f}) Lost: {looser.name} gained {looser_point_gain:.2f} pts ({looser.elo:.2f}) ")
-        else:
-            team1, team2 = game.get_participants_obj(team_db)
-            match_counter, *_ = check_previous_matches(counted_matches, team1, team2)
-            point_gain = calculate_points_draw(team1, team2, match_counter)
-            counted_matches.add(game)
-            print(f"Parsing Match #{match_id}: DRAW! {game.first_team} // {game.second_team} {point_gain} pts gained.")
-        ##
-        #calculate_points(winner, winner_wins, looser, looser_wins, match_counter)
 
 def check_if_not_draw(match) -> bool:
     if match.victorious_team != None:
@@ -67,3 +46,27 @@ def calculate_points_draw(team1, team2, match_counter):
         team2.elo += MATCH_BASE_ELO
         point_gain += MATCH_BASE_ELO
     return point_gain
+
+
+
+def calculate_elo(match_db, team_db):
+    counted_matches = set()
+    print("Starting match parse for ELO calculation.")
+    for game in match_db:
+        match_id = game.get_id()
+        winner = game.get_winner_obj(team_db)
+        looser = game.get_looser_obj(team_db)
+        if check_if_not_draw(game):
+            match_counter, winner_wins, looser_wins, draws = check_previous_matches(counted_matches, winner, looser)
+            if winner_wins + looser_wins + draws == 0:
+                winner_wins = 1
+            winner_point_gain, looser_point_gain = calculate_points(winner, winner_wins, looser, looser_wins, draws, match_counter)
+            counted_matches.add(game)
+            # print(f"Parsing Match #{match_id}: Won: {winner.name} gained {winner_point_gain:.2f} pts ({winner.elo:.2f}) Lost: {looser.name} gained {looser_point_gain:.2f} pts ({looser.elo:.2f}) ")
+        else:
+            team1, team2 = game.get_participants_obj(team_db)
+            match_counter, *_ = check_previous_matches(counted_matches, team1, team2)
+            point_gain = calculate_points_draw(team1, team2, match_counter)
+            counted_matches.add(game)
+            # print(f"Parsing Match #{match_id}: DRAW! {game.first_team} // {game.second_team} {point_gain} pts gained.")
+    print(f"Parsed {len(counted_matches)} Matches!")

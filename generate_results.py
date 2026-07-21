@@ -7,6 +7,6 @@ def report_ranking(team_db):
     with open(filename, "w") as doc:
         rank = 1
         for team in team_db:
-            doc.write(f"Rank {rank}: {team.name} ({team.elo:.2f} pts.)\n")
+            doc.write(f"Rank {rank}: {team.name} ({team.elo:.2f} pts.) - {team.matches} matches against {len(team.opponents)} unique opponents\n")
             rank +=1
-    print(f"Ranking generated as {filename} in root!")
+    print(f"Ranking for {rank} teams generated as {filename} in root!")

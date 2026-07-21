@@ -53,12 +53,14 @@ class team:
     def __init__(self, id, name) -> None:
         self.__id = id
         self.name = name
-        self.elo = BASE_ELO_VALUE
+        self.elo = 0
         self.matches = 0
         self.wins = 0
         self.__winrate = 0.00
-        self.__opponents = {}
-        self.__prev_rank = 1
+        self.opponents = set()
+        self.match_gp = 0
+        self.prev_rank = 1
+        self.rank = None
 
     def get_id(self):
         return self.__id
@@ -81,8 +83,5 @@ class team:
                     opponent = teams[1]
                 else:
                     opponent = teams[0]
-                if opponent in self.__opponents:
-                    self.__opponents[opponent] += 1
-                else:
-                    self.__opponents[opponent] = 1
-        return self.__opponents
+                self.opponents.add(opponent)
+        return self.opponents
