@@ -18,16 +18,22 @@ class match:
         self.__victorious_team_id = victorious_team_id
         self.id = match_id
         self.timestamp = timestamp
-        self.__loosing_team = self.find_looser()
-
-    def find_looser(self):
-        return self.first_team if self.second_team == self.victorious_team else self.second_team
 
     def get_looser(self):
-        return self.__loosing_team
+        return self.first_team if self.second_team == self.victorious_team else self.second_team
 
     def get_winner(self):
         return self.victorious_team
+
+    def get_winner_obj(self, team_db):
+        for team in team_db:
+            if self.get_winner() == team.name:
+                return team
+
+    def get_looser_obj(self, team_db):
+        for team in team_db:
+            if self.get_looser() == team.name:
+                return team
 
     def get_id(self):
         return self.id
