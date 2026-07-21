@@ -1,3 +1,5 @@
+from constants import BASE_ELO_VALUE
+
 class match:
     def __init__(
         self,
@@ -38,16 +40,25 @@ class match:
     def get_id(self):
         return self.id
 
+    def get_participants_obj(self, team_db):
+        for team in team_db:
+            if team.name == self.first_team:
+                participant1 = team
+            if team.name == self.second_team:
+                participant2 = team
+        return participant1, participant2
+
 
 class team:
     def __init__(self, id, name) -> None:
         self.__id = id
         self.name = name
-        self.elo = 1500
+        self.elo = BASE_ELO_VALUE
         self.matches = 0
         self.wins = 0
         self.__winrate = 0.00
         self.__opponents = {}
+        self.__prev_rank = 1
 
     def get_id(self):
         return self.__id
