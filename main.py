@@ -20,7 +20,9 @@ def main():
     team_db = build_teams_db(path_teams_json)
     match_db = build_match_db(path_matches_json)
     update_db(match_db, team_db)
-    calculate_elo(match_db)
+    calculate_elo(match_db, team_db)
+
+
 
 
 main()
