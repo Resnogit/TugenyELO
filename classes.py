@@ -27,12 +27,12 @@ class match:
     def get_winner(self):
         return self.victorious_team
 
-    def get_winner_obj(self, team_db):
+    def get_winner_obj(self, team_db:list) -> object:
         for team in team_db:
             if self.get_winner() == team.name:
                 return team
 
-    def get_looser_obj(self, team_db):
+    def get_looser_obj(self, team_db:list) -> object:
         for team in team_db:
             if self.get_looser() == team.name:
                 return team
@@ -40,7 +40,7 @@ class match:
     def get_id(self):
         return self.id
 
-    def get_participants_obj(self, team_db):
+    def get_participants_obj(self, team_db: list):
         for team in team_db:
             if team.name == self.first_team:
                 participant1 = team
@@ -50,7 +50,7 @@ class match:
 
 
 class team:
-    def __init__(self, id, name) -> None:
+    def __init__(self, id: int, name: str) -> None:
         self.__id = id
         self.name = name
         self.elo = 0
@@ -75,7 +75,7 @@ class team:
             print(f"No Matches found for {self.name}. Can not calculate Winrate")
         return f"{self.__winrate:.2f}%"
 
-    def get_opponents(self, matches):
+    def get_opponents(self, matches:list):
         for match in matches:
             teams = (match.first_team, match.second_team)
             if self.name in teams:
@@ -85,3 +85,11 @@ class team:
                     opponent = teams[0]
                 self.opponents.add(opponent)
         return self.opponents
+
+class matchup: #NEEDS "find_matchups" somewhere to build this. ?Build_dict=?
+    def __init__(self,team1: team, team2:team ,match_db:list) -> None:
+        self.team1 = team1
+        self.team2 = team2
+        self.__wins_team1 = None
+        self.__wins_team2 = None
+        pass
