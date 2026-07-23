@@ -41,7 +41,7 @@ class match:
     def get_id(self):
         return self.id
 
-    def get_participants_obj(self, team_db: list):
+    def get_participants_obj(self, team_db: list): #Rewrite into callable attributes for each team in the match
         for team in team_db:
             if team.name == self.first_team:
                 participant1 = team
