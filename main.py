@@ -1,16 +1,9 @@
 from build_dict import build_match_db, build_opponents_set, build_teams_db, calculate_matches, clean_up_teams
 from calculate_elo import calculate_elo
 from generate_results import report_ranking
-#Test Comment
+
 path_teams_json = "json/2025_teams.json"
 path_matches_json = "json/2025_matches.json"
-
-
-
-def report_winrates(team_db):
-    for team in team_db:
-        winrate = team.get_winrate()
-        print(f"{team.name}: {team.wins}/{team.matches} matches won! ({winrate})")
 
 
 def main():

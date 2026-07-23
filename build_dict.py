@@ -1,6 +1,6 @@
 import json
 
-from classes import match, team
+from classes import match, team, matchup
 
 
 def build_teams_db(path):
@@ -65,5 +65,13 @@ def clean_up_teams(team_db):
     return team_db_clean
 
 def build_opponents_set(match_db, team_db):
+    matchup_db = list()
     for team in team_db:
         team.get_opponents(match_db)
+        for opponent in team.opponents:
+            new_matchup = matchup(team.name, opponent, match_db)
+            team.matchups.add(new_matchup)
+            matchup_db.append(new_matchup)
+        for x in team.matchups:
+            print(f"Matchup found for {x.team1} against {x.team2}: W: {x.wins_team1} L: {x.wins_team2} D: {x.draws}")
+    return matchup_db

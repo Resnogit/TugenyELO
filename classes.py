@@ -16,6 +16,7 @@ class match:
         self.__first_team_id = first_team_id
         self.second_team = second_team
         self.__second_team_id = second_team_id
+        self.teams = (first_team, second_team)
         self.victorious_team = victorious_team
         self.__victorious_team_id = victorious_team_id
         self.id = match_id
@@ -61,6 +62,7 @@ class team:
         self.match_gp = 0
         self.prev_rank = 1
         self.rank = None
+        self.matchups = set()
 
     def get_id(self):
         return self.__id
@@ -77,19 +79,32 @@ class team:
 
     def get_opponents(self, matches:list):
         for match in matches:
-            teams = (match.first_team, match.second_team)
-            if self.name in teams:
-                if teams[0] == self.name:
-                    opponent = teams[1]
+            if self.name in match.teams:
+                if match.teams[0] == self.name:
+                    opponent = match.teams[1]
                 else:
-                    opponent = teams[0]
+                    opponent = match.teams[0]
                 self.opponents.add(opponent)
         return self.opponents
 
 class matchup: #NEEDS "find_matchups" somewhere to build this. ?Build_dict=?
-    def __init__(self,team1: team, team2:team ,match_db:list) -> None:
+    def __init__(self,team1:str, team2:str ,match_db:list) -> None:
         self.team1 = team1
         self.team2 = team2
-        self.__wins_team1 = None
-        self.__wins_team2 = None
-        pass
+        self.teams = (team1, team2)
+        self.wins_team1 = 0
+        self.wins_team2 = 0
+        self.draws = 0
+        self.calculate_wins_draws(match_db)
+        self.total_matches = self.wins_team1 + self.wins_team2 + self.draws
+        self.__matchcoeff = self.wins_team1 - self.wins_team2
+
+    def calculate_wins_draws(self, match_db):
+        for match in match_db:
+            if self.team1 in match.teams and self.team2 in match.teams:
+                if match.victorious_team == None:
+                    self.draws +=1
+                if match.victorious_team == self.team1:
+                    self.wins_team1 +=1
+                if match.victorious_team == self.team2:
+                    self.wins_team2 +=1
