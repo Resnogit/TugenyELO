@@ -2,9 +2,7 @@ from constants import BASE_ELO_VALUE, MATCH_BASE_ELO, POSITIONAL_ELO_MAX
 
 
 def check_if_not_draw(match) -> bool:
-    if match.victorious_team != None:
-        return True
-    return False
+    return match.victorious_team != None
 
 def check_previous_matches(counted_matches, team1, team2) -> tuple[int, int, int, int]:
     match_counter = 1
